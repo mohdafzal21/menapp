@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/jwtcb2020', {useNewUrlParser: true, useUnifiedTopology: true})
+mongoose.connect('mongodb://admin:admin123@ds251618.mlab.com:51618/cb2020', {useNewUrlParser: true, useUnifiedTopology: true})
 .then(()=> console.log("DB is connected"))
 .catch((err)=> console.log(err))
 
